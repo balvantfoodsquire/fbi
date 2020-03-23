@@ -149,6 +149,7 @@ nav .searchBar .input-group .form-control:focus{
   height: 707px;
   padding: 10% 0px;
   margin-top: -2%;
+  background-size: cover;
 }
 
 #section2 .title{
@@ -521,11 +522,11 @@ border-radius: 5px;
  font-size: 15px;
 }
 #section6{
-  background-image: url('../images/bg4.png');
-  background-repeat: no-repeat;
-  height: 468px;
-  background-size: cover;
-  padding: 10% 0;
+ background-image: url(../images/bg4.png);
+    background-repeat: no-repeat;
+    height: auto;
+    background-size: cover;
+    padding: 6% 0;
 }
 #section6 .pdlr-10{
   padding: 0 10%;
