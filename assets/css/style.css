@@ -23,6 +23,15 @@
   font-family: Poppins-Light;
   src: url(../poppins/Poppins-Light.ttf);
 }
+.headercolor{
+ position: fixed;
+left: 0;
+ display: block;
+ z-index: 999;
+ width: 100%;
+ top: 0px;
+ border-radius: 0px !important;
+}
 
 .topheader ul{
   list-style: none;
