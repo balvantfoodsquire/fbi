@@ -23,6 +23,13 @@
   font-family: Poppins-Light;
   src: url(../poppins/Poppins-Light.ttf);
 }
+.navbar-toggler:focus, .navbar-toggler:hover {
+    text-decoration: none;
+    outline: none;
+}
+.navbar-dark .navbar-toggler{
+  border: none;
+}
 .headercolor{
  position: fixed;
 left: 0;
