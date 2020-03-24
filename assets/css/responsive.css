@@ -146,6 +146,9 @@ footer .copyright {
 }
  /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) { 
+.slick-dots li {
+  margin: 0 0px !important;
+}
   .display-none{
     display: none;
   }
@@ -202,6 +205,7 @@ nav .searchBar {
 }
 #section2 .btn-agent, #section2 .btn-quots{
   width: 47%;
+  font-size: 11px;
 }
 #section3 {
     padding: 5%;
@@ -317,8 +321,14 @@ margin: 10px 0;
 #section8 .div1 .fa-arrow-right {
     position: absolute;
     right: 17%;
-    top: 118px;
+    top: 111px;
     color: #fff;
+}
+#section10 .form-div .title {
+   font-size: 18px;
+}
+#section10 .form-div form .btn-submit {
+  font-size: 20px;
 }
 #section8 .div1 .sign-email {
     font-family: Poppins-Medium;
