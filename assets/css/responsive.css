@@ -28,10 +28,13 @@
     font-size: 10px;
 }
 .topheader ul .quotesdiv {
-   padding: 12px;
+   /*padding: 12px;*/
     /*margin-top: 12px;*/
     float: right;
   }
+.topheader ul .quotesdiv .media{
+  padding: 12px;
+}
 .logo-div{
   align-self: center;
   margin: 10px 0;
@@ -122,10 +125,10 @@ nav .navbar-brand {
     top: 105px !important;
     color: #fff;
 }
-#section10 .form-div .title {
+.section10 .form-div .title {
     font-size: 16px;
 }
-#section10 .form-div form .btn-submit {
+.section10 .form-div form .btn-submit {
   font-size: 20px;
 }
 footer .footerlogo{
@@ -139,7 +142,7 @@ footer .copyright {
     margin-top: 25px;
     text-align: center;
 }
-#section10 .benifit-div .media .info {
+.section10 .benifit-div .media .info {
     font-family: Poppins-SemiBold;
     font-size: 12px;
 }
@@ -173,9 +176,12 @@ footer .copyright {
     font-size: 10px;
 }
 .topheader ul .quotesdiv {
-  padding: 12px;
+  /*padding: 12px;*/
   float: right;
   }
+.topheader ul .quotesdiv .media{
+  padding: 12px;
+}
 .logo-div{
   align-self: center;
   margin: 10px 0;
@@ -307,15 +313,15 @@ margin: 10px 0;
     width: 100%;
     margin: 10% auto;
 }
-#section10 {
+.section10 {
   height: auto;
   
 }
-#section10 .benifit-div {
+.section10 .benifit-div {
     padding: 10% 5%;
 }
 
-#section10 .benifit-div .h2-text {
+.section10 .benifit-div .h2-text {
    font-size: 20px;
   }
 #section8 .div1 .fa-arrow-right {
@@ -324,17 +330,17 @@ margin: 10px 0;
     top: 111px;
     color: #fff;
 }
-#section10 .form-div .title {
+.section10 .form-div .title {
    font-size: 18px;
 }
-#section10 .form-div form .btn-submit {
+.section10 .form-div form .btn-submit {
   font-size: 20px;
 }
 #section8 .div1 .sign-email {
     font-family: Poppins-Medium;
     font-size: 20px;
 }
-#section10 .benifit-div .media .info {
+.section10 .benifit-div .media .info {
     font-family: Poppins-SemiBold;
     font-size: 12px;
 }
@@ -378,7 +384,7 @@ footer .copyright {
 #section3 .thumbnail {
    margin: 5%;
 }
-#section4, #section10{
+#section4, .section10{
   height: auto;
 }
 #section2 .btn-quots, #section2 .btn-agent {
@@ -504,25 +510,25 @@ margin-right: 10px;
     display: block;
     width: 80%;
 }
-#section10 .benifit-div {
+.section10 .benifit-div {
     padding: 5% 5%;
 }
-#section10 .benifit-div .h2-text {
+.section10 .benifit-div .h2-text {
   font-size: 20px;
 }
-#section10 .benifit-div .p-text {
+.section10 .benifit-div .p-text {
   font-size: 18px;
 }
-#section10 .benifit-div .media-div {
+.section10 .benifit-div .media-div {
     margin-top: 15px;
 }
-#section10 .form-div form .btn-submit {
+.section10 .form-div form .btn-submit {
   font-size: 20px;
 }
 #section9 .borderleft h2 {
   font-size: 20px;
 }
-#section10 .form-div .title {
+.section10 .form-div .title {
   font-size: 20px;
 }
 footer .footerlogo {
@@ -708,20 +714,20 @@ width: 100%;
 #section9 .pattner-img ul li img {
   width: 75%;
 }
-#section10 {
+.section10 {
  height: auto;
 }
 
-#section10 .form-div .title {
+.section10 .form-div .title {
   font-size: 18px;
 }
-#section10 .benifit-div .h2-text {
+.section10 .benifit-div .h2-text {
  font-size: 18px;
 }
-#section10 .benifit-div .p-text {
+.section10 .benifit-div .p-text {
    font-size: 15px;
 }
-#section10 .form-div form .btn-submit {
+.section10 .form-div form .btn-submit {
   font-size: 15px;
 }
 footer .copyright {
