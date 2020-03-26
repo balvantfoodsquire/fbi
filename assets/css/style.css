@@ -32,10 +32,12 @@ color: #ffff;
 .quotesdiv a:hover{
 outline: none;
 text-decoration: none;
- color: #007bff !important;
+color: #ffffff !important;
 }
 .quotesdiv:hover{
   color: #007bff !important;
+  background-image: linear-gradient(to right, #446e94 0%, #70839c 51%, #e6dabb 100%);
+  /*border: 1px solid #003478;*/
 }
 .navbar-toggler:focus, .navbar-toggler:hover {
     text-decoration: none;
@@ -93,7 +95,7 @@ left: 0;
 .topheader ul .quotesdiv{
   border-radius: 5px;
     background-color: #003478;
-    color: #fff !important;
+    color: #ffff !important;
     /*padding: 15px;*/
 }
 .topheader ul .quotesdiv a{
@@ -232,6 +234,15 @@ nav .searchBar .input-group .form-control:focus{
     margin-right: 10px; 
     padding: 10px;
     width: 25%;
+}
+#section2 .btn-quots:hover{
+  /*background-color: #ffffff;*/
+  background-image: linear-gradient(to right, #5699d0 0%, #70839c 51%, #003578 100%);
+  color: #ffff;
+}
+#section2 .btn-agent:hover{
+   background-image: linear-gradient(to right, #5699d0 0%, #70839c 51%, #003578 100%);
+  color: #ffff;
 }
 #section2 .btn-quots i{
   margin-right: 10px; 
@@ -418,7 +429,8 @@ align-self: center;
   padding: 15px 20px;
 }
 #section4 .learn-btn:hover{
-  color: #007bff;
+  color: #ffff;
+  background-image: linear-gradient(to right, #474c50 0%, #70839c 51%, #003578 100%);
 }
 #section4 .learn-btn img{
   margin-right: 10px;
@@ -561,7 +573,8 @@ border-radius: 5px;
   margin-top: 5%;
 }
 #section5 .tab-pane .get-qst-btn:hover, #section6 .learn-btn:hover{
-  color: #007bff;
+  color: #ffff;
+  background-image: linear-gradient(to right, #446e94 0%, #70839c 51%, #003578 100%);
 }
 
 #section5 .tab-pane .get-qst-btn i{
